@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+ 
+  </head>
+
+
+  <body>
+
+    <header class="cabecera" id="arriba">
+
+        <nav class="navbar navbar-expand-lg bg-secondary bg-opacity-25">
+
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./imagenes/pizzalogo.png"  width="60em" class="img-fluid" alt=""></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="./pizzas.html">Pizzas</a>
+
+                        </li>
+
+                        <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Ofertas
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">2X1</a></li>
+                                <li><a class="dropdown-item" href="#">5X3</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">10X7</a></li>
+                            </ul>
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Contacto</a>
+                        </li>
+
+                    </ul>
+
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">DALE</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- <header class="cabecera" id="arriba">
+
+            <nav id="navegador" class="bg-secondary bg-opacity-25">
+
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="logo">
+                    <img src="./imagenes/pizzalogo.png"  width="60em" class="img-fluid" alt="">
+                </div> 
+
+                <div  class="menu" >
+                <a class="letrasmenu" href="">PIZZAS</a>
+                <a class="letrasmenu" href="">PACKS</a>
+                <a class="letrasmenu" href="">CUBOS</a>
+                </div>
+
+            </nav>
+
+    </header> -->
+
+    <main class="container-fluid">
+
+        <div class="row">
+            <div class="banner col-12 px-0 ">
+                
+
+                <img src="./imagenes/pizzabanner3.png" class="img-fluid" alt="">
+    
+            </div>
+        </div>
+
+       
+
+    </main>
+
+
+    <div class="container formulario " >
+        
+        <form class="row g-3 bg-secondary bg-opacity-25">
+            
+            <div class=" col-12 col-md-6" id="fuente">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class=" col-12  col-md-6" id="fuente">
+                <label for="inputnumber" class="form-label">Teléfono</label>
+                <input type="number" class="form-control" id="inputnumber">
+            </div>
+            <div class="col-12" id="fuente">
+                <label for="inputAddress" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="3 Calatayud...">
+            </div>
+            <div class="   col-12 col-md-6" id="fuente">
+                <label for="inputCity" class="form-label">Localidad</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class=" col-12 col-md-4" id="fuente">
+                <label for="inputState" class="form-label">Provincia</label>
+                <select id="inputState" class="form-select">
+                <option selected>Álava</option>
+                <option selected>Albacete</option>
+                <option selected>Alicante</option>
+                <option selected>Almería</option>
+                <option selected>Asturias</option>
+                <option selected>Ávila</option>
+                <option selected>Badajoz</option>
+                <option selected>Barcelona</option>
+                <option selected>Burgos</option>
+                <option selected>Cáceres</option>
+                <option selected>Cádiz</option>
+                <option selected>Cantabria</option>
+                <option selected>Castellón</option>
+                <option selected>Ciudad Real</option>
+                <option selected>Córdoba</option>
+                <option selected>Cuenca</option>
+                <option selected>Huelva</option>
+                <option selected>Huesca</option>
+                <option selected>Islas Baleares</option>
+                <option selected>Jaén</option>
+                <option selected>A coruña</option>
+                <option selected>La Rioja</option>
+                <option selected>Las Palmas</option>
+                <option selected>León</option>
+                <option selected>Lleida</option>
+                <option selected>Lugo</option>
+                <option selected>Madrid</option>
+                <option selected>Málaga</option>
+                <option selected>Murcia</option>
+                <option selected>Navarra</option>
+                <option selected>Ourense</option>
+                <option selected>Palencia</option>
+                <option selected>Pontevedra</option>
+                <option selected>Salamanca</option>
+                <option selected>Santa Cruz de Tenerife</option>
+                <option selected>Segovia</option>
+                <option selected>Sevilla</option>
+                <option selected>Soria</option>
+                <option selected>Tarragona</option>
+                <option selected>Teruel</option>
+                <option selected>Toledo</option>
+                <option selected>Valencia</option>
+                <option selected>Valladolid</option>
+                <option selected>Bizkaia</option>
+                <option selected>Zamora</option>
+                <option selected>Zaragoza</option>
+            </select>
+            </div>
+            <div class=" col-12  col-md-2" id="fuente">
+                <label for="inputZip" class="form-label">CP</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+            
+            <div class="form-check ms-4  ">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                Check me out
+                </label> 
+            </div>
+            
+            <div class="d-grid d-md-flex mb-3 justify-content-center" ><button type="submit"  class="btn btn-outline-dark">COMIENZA TU PEDIDO</button></div>
+            
+           
+        </form>
+
+
+    </div>
+
+
+    <div class="container ofertas d-flex justify-content-center align-items-center">
+
+        <div class="row">
+
+            <div class="col-12 d-md-8" >
+
+                <img src="./imagenes/pizzalogo.png" width="30em" class="logopizza img-fluid" alt="">
+
+                <img src="./imagenes/pizzalogo.png" width="30em" class="logopizza img-fluid" alt="">
+
+                <img src="./imagenes/pizzalogo.png" width="30em" class="logopizza" alt="">
+                <h1 class="titulo-ofertas">OFERTAS</h1>
+                
+                <img src="./imagenes/pizzalogo.png" width="30em" class="logopizza2 img-fluid" alt="">
+
+                <img src="./imagenes/pizzalogo.png" width="30em" class="logopizza img-fluid" alt="">
+                
+                <img src="./imagenes/pizzalogo.png" width="30em" class="logopizza img-fluid" alt="">
+
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    
+    <div class="container-fluid bg-secondary bg-opacity-25" id="ofertas">
+        
+        <div class="row">
+
+            <div class=" col-12  col-md-6 mb-3 promo-container d-flex justify-content-evenly" id="imagenesoferta" >
+                <a href=""><img class="image-center img-fluid" width="500rem" src="./imagenes/ofertapizza.png" alt=""> </a> 
+            </div>
+
+            <div class=" col-12 col-md-6 mb-3 promo-container d-flex justify-content-evenly" id="imagenesoferta" >
+                <a href=""><img class="image-center img-fluid  " width="505rem" src="./imagenes/ofertapizza2.png" alt=""></a>
+            </div>
+            
+
+        </div>
+
+    </div>
+    
+    <div class="container2">
+
+        <div class="localizarestaurante">
+            <img src="./imagenes/pizzalogo.png" width="30em" class="logopizza img-fluid " alt="">
+            <img src="./imagenes/pizzalogo.png" width="30em" class="logopizza img-fluid" alt="">
+            <img src="./imagenes/pizzalogo.png" width="30em" class="logopizza" alt="">
+            <h1>LOCALIZA TU RESTAURANTE</h1>
+            <img src="./imagenes/pizzalogo.png" width="30em" class="logopizza img-fluid " alt="">
+            <img src="./imagenes/pizzalogo.png" width="30em" class="logopizza img-fluid" alt="">
+            <img src="./imagenes/pizzalogo.png" width="30em" class="logopizza" alt="">
+        </div>
+
+       
+            
+        <div>
+            <img class="localiza" src="./imagenes/banner pizzas2.png" alt="">
+            
+        </div>
+        
+
+    </div>
+
+
+    <div class="container d-flex justify-content-center align-items-center ">
+
+        <div class="row g-3" id="localizaboton" >
+
+            <div class="col-12 col-md-6  d-flex justify-content-center align-items-center" >
+                
+                <div class="col-sm-7" id="formlocali1">
+                    <input type="text" class="form-control" placeholder="City" aria-label="City">
+            
+                    <button type="submit"  class="btn btn-outline-dark">BUSCA</button>
+                </div>
+            </div>
+        
+        </div>
+
+    </div>    
+
+    <div class="mapa container">
+        
+        <div class="row">
+
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <iframe width="600rem" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.868963783113!2d-1.651317785204211!3d41.35520180595388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5b8f319c440dd5%3A0x77dbc7201c7e91b1!2sBarranco%20de%20las%20Pozas%2C%2024-26%2C%2050300%20Calatayud%2C%20Zaragoza!5e0!3m2!1ses!2ses!4v1655823537787!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="textopromo bg-secondary bg-opacity-25 container col-12 col-md-5">
+
+        <div class="row"> 
+                         
+            <div class="titulopizza">
+                <h1>La mejor comida y pizza a domicilio</h1>
+            </div>
+
+            <div class="parrafo">
+                    
+                <p>Si tienes hambre y te apetece pedir comida a domicilio, Pizza Hut es la mejor opción. 
+
+                        Elige tu pizza entre toda nuestra variedad, desde la irresistible Cheese lover’s, ideal para los amantes del queso, hasta nuestra mítica Meat lover’s, para los más carnívoros. Selecciona el tipo de masa que más te guste entre las deliciosas Masa Pan, Fina, Rolling pizza o Tradicional. <br>
+                        
+                        Completa tu pedido con nuestros entrantes, o si lo prefieres, decídete por una de nuestras ensaladas. Todo esto acompañado de tu bebida preferida. <br>
+                        
+                        Para terminar, quédate con el mejor sabor de boca gracias a nuestros postres, ¿cómo resistirse a un delicioso helado o a una Cookie Gigante? Y si lo quieres todo, prueba los menús completos.</p>
+                
+            </div>
+
+
+        </div> 
+    </div>
+
+<footer class="container-flex">
+
+    <div  class="row" >
+
+        <div class="card-group">
+
+            <div class="card">
+
+                <div class="card-body  bg-secondary bg-opacity-25 ">
+                    <h5 class="card-title">SOBRE NOSOTROS</h5>
+                    <p class="card-text">Somos una pizzería familiar, nacida en 1925, con una larga trayectoria profesional .</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+
+            </div>
+
+            <div class="card" >
+
+                <div class="card-body bg-secondary bg-opacity-25">
+
+                    <h5 class="card-title">Nutrición y Calidad</h5>
+
+                   <ul class="listado">
+                        <a class="listadolinks" href=""><li>Listado de alérgenos</li></a>
+
+                        <a  class="listadolinks" href=""><li>Sin Gluten</li></a> 
+
+                        <a  class="listadolinks" href=""><li>Valores nutricionales</li></a>
+
+                        <a  class="listadolinks" href=""><li>Comida de calidad</li></a>
+
+                        <a  class="listadolinks" href=""><li>Masas</li></a>
+
+                    </ul>
+
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-body bg-secondary bg-opacity-25">
+
+                    <h5 class="card-title">Ayuda y Pedidos</h5>
+
+                    <ul class="listado">
+                        <a class="listadolinks" href=""><li>Ayuda y Pedidos</li></a>
+
+                        <a  class="listadolinks" href=""><li>Localizador pizzerías</li></a> 
+
+                        <a  class="listadolinks" href=""><li>Contacto</li></a>
+
+                        <a  class="listadolinks" href=""><li>Preguntas Frecuentes</li></a>
+
+                        <a  class="listadolinks" href=""><li>
+                            COVID-19</li></a>
+
+                    </ul>
+
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</footer>
+
+  
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+
+
+
+</html>

@@ -1,0 +1,271 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1, h2, h3, h4, h5, p, a, label, li, ul{
+
+
+    font-family: 'League Gothic', sans-serif;
+}
+
+#navegador{
+    
+    width: 100%;
+    height: 30%;
+    
+    display: flex;
+    align-items: center;
+   
+}
+#navegador menu{
+
+    display: flex;
+    justify-content: end;
+      
+    
+
+}
+
+
+
+.logo{
+
+  
+    width: 50%;
+    display: flex;
+    margin-left: 12.5rem;
+}
+
+.menu{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.menu a{
+
+    
+    width: 10%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    margin-right: 9.375rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+
+    color: rgb(184, 8, 8);
+
+}
+
+
+
+
+.formulario{
+
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario form{
+
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: auto;
+    box-shadow:  0px 0px 1rem rgba(0, 0, 0, 0.896);
+
+}
+
+.ofertas{
+
+    margin-top: 2rem;
+
+}
+
+
+
+
+
+#ofertas{
+
+    margin-top: 1.5rem;
+    box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.896); 
+
+}
+#imagenesoferta{
+
+    margin-top: 0.5rem;
+      
+}
+
+.piepagina{
+
+    border: 0.125rem solid red;
+    margin-top: 3rem;
+    width: 100%;
+    padding: 0.5rem;
+
+
+}
+
+#fuente{
+
+    font-size: 1.5rem;
+}
+
+.titulo-ofertas{
+
+    font-size: 3.5rem;
+}
+
+.titulo-ofertas:hover{
+
+    color: rgb(184, 8, 8);
+
+}
+
+.container2{
+
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    
+}
+
+.localizarestaurante{
+
+   text-align: center;
+   align-items: center;
+   padding: 2rem;
+  
+  
+}
+
+.localizarestaurante:hover{
+
+    
+    color: rgb(184, 8, 8);
+
+}
+
+.localiza {
+
+    width: 100%;
+
+
+}
+
+#localizaboton{
+
+ 
+ margin-top: 1rem;
+ justify-content: center;
+ align-items: center;
+
+}
+
+#formlocali1{
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+#formlocali1 input{
+
+    width: 10rem;
+    border: 0.063rem solid black;
+
+
+}
+
+#formlocali1 input:hover{
+    color: rgb(184, 8, 8)
+
+
+}
+
+.mapa{
+    margin-top: 2rem;
+}
+
+.textopromo{
+
+    display: block;
+   justify-content: center;
+   align-items: center;
+   margin-top: 3rem;
+    padding: 0.313rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:  0px 0px 1em rgba(0, 0, 0, 0.896);
+}
+
+.titulopizza{
+
+    
+    padding: 0.188rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.parrafo{
+
+    
+    padding: 0.188rem;
+    display: flex;
+    justify-content: center;
+}
+
+.titulopizza:hover{
+
+    color: rgb(184, 8, 8);
+
+}
+
+.parrafo:hover{
+
+    color: rgb(184, 8, 8);
+
+}
+
+
+.container-flex{
+
+    margin-top: 3rem;
+
+}
+
+.listadolinks{
+
+    text-decoration: none;
+    color: black;
+}
+
+.listadolinks:hover{
+
+    color: rgb(184, 8, 8);
+}
+
+.card-title:hover{
+
+    color: rgb(184, 8, 8);
+}
+.card-text:hover{
+
+    color: rgb(184, 8, 8);
+}
+
